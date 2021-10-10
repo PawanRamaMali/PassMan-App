@@ -1,6 +1,6 @@
-# ✅ R-Shiny-Login-Template
+# PassMan App
 
-R Shiny App template with Login functionality
+Password Manager App with Storage, Encryption, Hashing and Salting functionality
 
 ## Motivation
 
