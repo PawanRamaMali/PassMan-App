@@ -2,6 +2,11 @@
 
 Password Manager App with Storage, Encryption, Hashing and Salting functionality
 
+## View App 
+
+* Deployed to ShinyApps.io
+* URL : https://techworkslab.shinyapps.io/PasswordManager/ 
+
 ## Motivation
 
 To jumpstart the application development process, I can use this template to start working on the core functionality. 
