@@ -26,6 +26,9 @@ library(shinyanimate)
 library(shinyjs)
 library(shinyBS)
 
+# * Load functions ----
+source('functions/greetings.R')
+
 
 ## Setting Upload Size 
 options(shiny.maxRequestSize=30*1024^2)
@@ -34,4 +37,5 @@ options(shiny.error = traceback)
 Logged = FALSE
 
 # LOAD DATASETS ----
+
 
