@@ -9,10 +9,6 @@ gc(verbose=TRUE)
 library(shiny)
 library(bslib)
 
-# Modeling
-
-# Core
-
 #if (!require("DT")) install.packages('DT')
 
 
@@ -26,16 +22,22 @@ library(shinyanimate)
 library(shinyjs)
 library(shinyBS)
 
-# * Load functions ----
-source('functions/greetings.R')
-
-
 ## Setting Upload Size 
 options(shiny.maxRequestSize=30*1024^2)
 options(shiny.error = traceback)
 
+
+
+
+# * Load functions ----
+source('./functions/greetings.R', local = TRUE)
+source('./functions/navbarPageWithInputs.R', local = TRUE)
+# * Load Login UI ----
+
+source('./ui/login.R', local = TRUE)$value
+
+
 Logged = FALSE
 
 # LOAD DATASETS ----
-
 
