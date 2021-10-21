@@ -6,6 +6,8 @@ Password Manager App with Storage, Encryption, Hashing and Salting functionality
 
 * Deployed to ShinyApps.io
 * URL : https://techworkslab.shinyapps.io/PasswordManager/ 
+* Default Username : usr3
+* Default Password : 345
 
 ## Motivation
 
@@ -32,7 +34,7 @@ This repository contains files to run the R Shiny App which has login functional
 * Download the code files
 
 ```
-git clone https://github.com/PawanRamaMali/R-Shiny-Login.git 
+git clone https://github.com/PawanRamaMali/PassMan-App.git 
 
 ```
 
