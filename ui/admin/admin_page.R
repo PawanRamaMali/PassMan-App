@@ -6,8 +6,6 @@ Build <-
 Run <-
   source('./ui/admin/run_test_case.R', local = TRUE)
 
-
-
 LogoutButton <- source('./functions/logout.R', local = TRUE)$value
 
 
@@ -52,7 +50,6 @@ fluidPage(
       
       # Run Test Case ----
       Run$value,
-      
       
       
       
